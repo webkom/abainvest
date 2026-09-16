@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 import FrontPage from "./pages/frontPage/index.tsx";
-import About from './aboutUs/index.tsx';
+import About from './pages/aboutUs/index.tsx';
 
 
 function App() {
