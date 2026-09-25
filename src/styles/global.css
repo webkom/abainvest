@@ -1,0 +1,46 @@
+:root {
+  /* Let the browser know we support both modes */
+  color-scheme: light dark;
+
+  /* --- BRAND PALETTE --- */
+  --brand-red: #E21617;
+  /* Desaturated red for dark mode to prevent visual vibration */
+  --brand-red-dark: #FF4D4D; 
+
+  /* --- SEMANTIC COLOR TOKENS --- */
+  
+  /* Backgrounds & Surfaces */
+  --bg-page: light-dark(#F9FAF9, #121212);
+  --bg-surface: light-dark(#FFFFFF, #1E1E1E);
+  --bg-surface-hover: light-dark(#F3F4F3, #2A2A2A);
+  
+  /* Text & Typography */
+  --text-primary: light-dark(#1A1A1A, #F5F5F5);
+  --text-secondary: light-dark(#606060, #A0A0A0);
+  --text-inverse: light-dark(#FFFFFF, #121212);
+  
+  /* Interactive Accents (Buttons, Links, Highlights) */
+  --accent-default: light-dark(var(--brand-red), var(--brand-red-dark));
+  --accent-hover: light-dark(#C11213, #FF6666);
+  --accent-muted: light-dark(#FEECEE, #2D1415); /* Light red tint for alerts/badges */
+  
+  /* Borders & Dividers */
+  --border-subtle: light-dark(#E0E0E0, #2E2E2E);
+  --border-strong: light-dark(#888888, #444444);
+}
+
+/* Optional override if you want a manual toggle button */
+html.light { color-scheme: light; }
+html.dark { color-scheme: dark; }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
