@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div>
-      Om oss
+      Om oss HALLO
     </div>
   );
 }
