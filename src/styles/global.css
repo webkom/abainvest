@@ -6,6 +6,20 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  --background-color: #a10d0d;
+  --container-color: #c81917;
+  --font-color: white;
+
+
+
+
+
+
+
+
+
+
+
   /* Let the browser know we support both modes */
   color-scheme: light dark;
 
@@ -78,7 +92,7 @@ html.dark { color-scheme: dark; }
 
 body {
   margin: 0;
-  background-color: var(--bg-page);
+  background-color: var(--background-color);
   color: var(--text-primary);
   font-family: sans-serif;
   transition: background-color 0.3s, color 0.3s;
