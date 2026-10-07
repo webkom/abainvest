@@ -1,4 +1,4 @@
-import Header from "../../components/Header/Header"
+import { Button } from "@/components/ui/button";
 
 
 export default function FrontPage() {
@@ -7,6 +7,7 @@ export default function FrontPage() {
       <div>
          Hei, dette er forsiden!
       </div>
+      <Button> Se rapporter </Button>
     </>
 
   );
