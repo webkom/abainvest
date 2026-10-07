@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Header from "../../components/Header/Header"
 import styles from "./index.module.css"
 
@@ -16,6 +17,7 @@ export default function FrontPage() {
          Dette er seksjon 2
          Hei, dette er forsiden!
       </div>
+      <Button> Se rapporter </Button>
       <div className= {styles.portfolioDistribution}>
         <h1>Porteføljefordeling</h1>
       </div>
