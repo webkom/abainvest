@@ -8,17 +8,6 @@
 :root {
   --background-color: #a10d0d;
   --container-color: #c81917;
-  --font-color: white;
-
-
-
-
-
-
-
-
-
-
 
   /* Let the browser know we support both modes */
   color-scheme: light dark;
@@ -92,10 +81,11 @@ html.dark { color-scheme: dark; }
 
 body {
   margin: 0;
-  background-color: var(--background-color);
+  background-color: var(--bg-surface);
   color: var(--text-primary);
   font-family: sans-serif;
   transition: background-color 0.3s, color 0.3s;
+  font-color: var(--text-primary)
 }
 
 @theme inline {

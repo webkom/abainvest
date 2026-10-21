@@ -11,19 +11,29 @@ export default function FrontPage() {
         <h1>AbaInvest</h1>
         <p>Litt info om abainvest</p>
         Dette er seksjon 1
+        <Button> Se rapporter </Button>
       </div>
-      <div className= {styles.portfolioDevelopment}>
-        <h1>Porteføljeutvikling</h1>
-         Dette er seksjon 2
-         Hei, dette er forsiden!
+      
+      <div className= {styles.wrapper}>
+        <div className = {styles.container}>
+          <h1>Porteføljeutvikling</h1>
+          Dette er seksjon 2
+          Hei, dette er forsiden!
+        </div>
       </div>
-      <Button> Se rapporter </Button>
-      <div className= {styles.portfolioDistribution}>
-        <h1>Porteføljefordeling</h1>
+      
+      <div className= {styles.wrapper}>
+        <div className = {styles.container}>
+          <h1>Porteføljefordeling</h1>
+        </div>
       </div>
-      <div className= {styles.holdings}>
-      <h1>Beholdninger</h1>
+      
+      <div className= {styles.wrapper}>
+        <div className = {styles.container}>
+          <h1>Beholdninger</h1>
+        </div>
       </div>
+
       <div className= {styles.footer}>
 
       </div>
