@@ -85,7 +85,17 @@ body {
   color: var(--text-primary);
   font-family: sans-serif;
   transition: background-color 0.3s, color 0.3s;
-  font-color: var(--text-primary)
+  color: var(--text-primary)
+}
+
+h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-family: 'Courier New', 'monospace', Arial, sans-serif;
+  font-weight: 500;
+  font-size: large;
 }
 
 @theme inline {

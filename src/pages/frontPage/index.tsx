@@ -6,31 +6,39 @@ import styles from "./index.module.css"
 export default function FrontPage() {
   return (
     <> 
+    
       <div className={styles.heroSection}>
-        <h3>Investeringsgruppe</h3>
-        <h1>AbaInvest</h1>
-        <p>Litt info om abainvest</p>
-        Dette er seksjon 1
-        <Button> Se rapporter </Button>
+        <div id = {styles.textContainer}>
+          <h3>Investeringsgruppen</h3>
+          <h1>AbaInvest</h1>
+          <p> En investeringsgruppe med fokus på analyse, disiplinert kapitalforvaltning
+            og langsiktig avkastning. </p>
+        </div>
+
+        <Button> En knapp </Button>
       </div>
       
       <div className= {styles.wrapper}>
         <div className = {styles.container}>
-          <h1>Porteføljeutvikling</h1>
-          Dette er seksjon 2
-          Hei, dette er forsiden!
+          <h2>PORTEFØLJEUTVIKLING</h2>
+
+
         </div>
       </div>
       
       <div className= {styles.wrapper}>
         <div className = {styles.container}>
-          <h1>Porteføljefordeling</h1>
+          <h2>PORTEFØLJEFORDELING</h2>
+
+
         </div>
       </div>
       
       <div className= {styles.wrapper}>
         <div className = {styles.container}>
-          <h1>Beholdninger</h1>
+          <h2>BEHOLDNINGER</h2>
+
+
         </div>
       </div>
 
