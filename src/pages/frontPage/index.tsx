@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Header from "../../components/Header/Header"
-import styles from "./index.module.css"
+import styles from "./index.module.css";
 
 
 export default function FrontPage() {
