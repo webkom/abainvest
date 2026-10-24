@@ -8,34 +8,27 @@
 
 }
 
-.portfolioDevelopment {
-    color: var(--font-color);
-    border-radius: 20px;
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 16px;
-    min-height: 500px;
-    background-color: var(--container-color);
+#textContainer{
+    margin: 1% 5%;
+
 }
 
-.portfolioDistribution {
+.container {
     color: var(--font-color);
     border-radius: 20px;
-    max-width: 1000px;
-    margin: 30px auto;
+    width: 800px;
     padding: 16px;
     min-height: 500px;
-    background-color: var(--container-color);
+    background-color: var(--primary-foreground);
+    text-align: center;
 }
 
-.holdings {
-    color: var(--font-color);
-    border-radius: 20px;
-    max-width: 1000px;
+.wrapper{
+    width: fit-content;
+    padding: 3px;
     margin: 30px auto;
-    padding: 16px;
-    min-height: 500px;
-    background-color: var(--container-color);
+    background: linear-gradient(to right, var(--brand-red), rgb(249, 135, 135));
+    border-radius: 20px;
 }
 
 .footer {
