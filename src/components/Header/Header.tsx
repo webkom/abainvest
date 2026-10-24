@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 import logoImg from "../../assets/logo.png";
+import { ModeToggle } from "../mode-toggle.tsx"
 
 export default function Header() {
     return (
@@ -13,6 +14,7 @@ export default function Header() {
             <nav className = {styles.nav}>
                 <Link to = "/aboutUs"> Om oss </Link>
                 <Link to = "/reports"> Rapporter </Link>
+                <ModeToggle/>
             </nav>
         </header>
     )
